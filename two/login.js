@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fail: function(err) {
             console.log(err); // 로그인 실패 처리
         },
-        redirectUri: 'https://djaxoqja.github.io/find-me/select/select.html'  // 리디렉션 URI 설정
+        redirectUri: 'https://djaxoqja.github.io/my-app/select/select.html'  // 리디렉션 URI 설정
     });
 }
 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
               // 로그인 성공 후, 다음 페이지로 리다이렉트
               console.log('로그인 성공 후 리디렉션');
-              window.location.href = 'https://djaxoqja.github.io/find-me/select/select.html';
+              window.location.href = 'https://djaxoqja.github.io/my-app/select/select.html';
  // 절대 경로 권장
           },
           fail: function (err) {
